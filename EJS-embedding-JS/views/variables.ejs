@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaaiables</title>
+    <link rel="stylesheet" href=""> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Variables Page</h1>
+    </header>
+    <main>
+        <p>This is the main content of the Variables page.</p>
+        <h2><%=title%></h2>
+        <section>
+            <div>
+                <h3>Name : <%=user.name%></h3>
+                <p>Age : <%=user.age%></p>
+                <p>Hobbies : <%=user.hobbies%></p>
+                <p>Activities :<%=user.isActive ? 'Active':'Inactive'%> </p>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer> 
+</body>
+</html>
